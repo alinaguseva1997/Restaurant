@@ -1,0 +1,304 @@
+/* Extra extra large */
+@media screen and (max-width: 1400px){
+	.header,
+	.navigation {
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+
+	.navigation {
+		padding: 0px 10px 2px 0px;
+	}
+
+	.card-dich {
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+
+	.dich__description-text {
+		margin: 0px 151px 93px 50px;
+	}
+
+	.dich__description-text-white {
+		margin: 0px 0px 22px 50px;
+	}
+
+	.recommendations {
+		padding-left: 0px;
+	}
+
+	.card-dich__link-wrapper {
+		padding-left: 0px;
+	}
+	
+}
+
+/* Extra large */
+@media screen and (max-width: 1200px){
+	.customer-info-wrap {
+		width: max-content;
+	}
+
+	.header,
+	.navigation {
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+
+	.navigation {
+		padding: 0px;
+	}
+
+	.navigation,
+	.sidebar {
+		line-height: 25px;
+		overflow-x: scroll;
+		overflow-y: hidden;
+		flex-wrap: nowrap;
+	}
+
+	.sidebar__link {
+		white-space: nowrap;
+		margin-right: 40px;
+	}
+
+	.sidebar::-webkit-scrollbar {
+		display: none;
+	}
+
+
+	.info-for-client__list {
+		gap: 15px;
+	}
+
+	.restaurant-info {
+		margin-right: 30px;
+	}
+
+	.card-dich {
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+
+	.dich__description-text {
+		margin: 0px 151px 78px 50px;
+	}
+
+	.dich__description-text-white {
+		margin: 0px 0px 22px 50px;
+	}
+
+	.dich__description-info-stroke1 {
+		padding-right: 50px;
+	}
+
+	.dich__description-info-stroke2 {
+		padding-right: 47px;
+	}
+
+	.dich__img {
+		width: 510px;
+	}
+}
+
+/* Large */
+@media screen and (max-width: 992px){
+	.form {
+		flex: none;
+	}
+
+	.header {
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+
+	.header-desctop-wrap {
+		flex-wrap: nowrap;
+	}
+
+	.contacts {
+		left: 63px;
+	}
+
+	.home {
+		margin-right: 15px;
+	}
+
+	.footer-info {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.dich {
+		flex-direction: column;
+	}
+
+	.dich__img {
+		width: 100%;
+		border-radius: 0px;
+	}
+
+	.dich__description {
+		border-radius: 0px;
+	}
+
+	.dich__description-title {
+		text-align: center;
+		margin-bottom: 6px;
+		margin-left: 0px;
+	}
+
+	.dich__description-text {
+		margin: 0px 10px 15px;
+		text-align: center;
+	}
+
+	.dich__description-text-white {
+		margin-bottom: 22px;
+	}
+
+	.basket {
+		margin: 0px auto 30px;
+	}
+
+	.dich__description-info-stroke1,
+	.dich__description-info-stroke2 {
+		padding-left: 20px;
+	}
+
+	.card-dich {
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+
+
+}
+
+/* Medium */
+@media screen and (max-width: 768px){
+	.header-desctop-wrap {
+		display: none;
+	}
+
+	.header-mobile-wrap {
+		display: block;
+	}
+
+	.header {
+		margin: 0;
+		height: 155px;
+	}
+
+	.navigation {
+		display: none;
+	}
+
+	.contacts {
+		left: 61px;
+		top: 20px;
+	}
+
+	.booking {
+		gap: 21px;
+	}
+
+	.info-for-client {
+		display: none;
+	}
+
+	.home-restaurant-info-wrap {
+		margin: 0 auto;
+	}
+
+	.footer-info {
+		height: auto;
+	}
+
+	.restaurant-info {
+		align-items: center;
+	}
+
+	.restaurant-info__text {
+		text-align: center;
+		margin-bottom: 13px;
+	}
+
+	.logo__img-footer {
+		margin-bottom: 25px;
+	}
+
+	.restaurant-info__link {
+		margin-bottom: 10px;
+	}
+
+	.restaurant-info__link:last-child {
+		margin-bottom: 0;
+	}
+
+	.map {
+		margin-top: 0;
+	}
+
+	.recommendations-header {
+		font-size: 20px;
+		margin: 35px 0px 40px 15px;
+		padding-left: 10px;
+	}
+
+	.card-dich {
+		padding-top: 20px;
+	}
+}
+
+/* Small */
+@media screen and (max-width: 576px){
+	.header {
+		margin: 0;
+	}
+	
+	.menu__header {
+		margin: 35px 0px 35px 30px;
+		font-size: 20px;
+	}
+
+	.contacts {
+		left: 15px;
+		right: 15px;
+		top: 20px;
+	}
+	
+	.map-geo__code {
+		height: 930px;
+	}
+	
+	.booking {
+		flex-direction: column;
+		padding-top: 29px;
+		gap: 33px;
+	}
+	
+	.contacts__title {
+		text-align: center;
+		padding-bottom: 16px;
+	}
+	
+	.contact-route {
+		display: block;
+	}
+	
+	.contact-link {
+		margin-bottom: 30px;
+	}
+
+	.card-dich {
+		padding-top: 0px;
+	}
+
+	.card-dich__link-wrapper-mobile {
+		display: block;
+	}
+
+	.card-dich__link-wrapper {
+		display: none;
+	}
+}

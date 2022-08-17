@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+	<link rel="stylesheet" href="css-card-product/fonts.css">
+	<link rel="stylesheet" href="css-card-product/reset.css">
+	<link rel="stylesheet" href="css-card-product/styles.css">
+	<link rel="stylesheet" href="css-card-product/media.css">
+	<title>Карточка товара</title>
+</head>
+
+<body>
+	<main class="wrapper">
+		<header class="header" id="top">
+			<div class="header-desctop-wrap">
+				<a href="index.html" class="logo">
+					<img class="logo__img" src="images/logo.svg" alt="logo">
+				</a>
+
+				<div class="customer-info-wrap">
+					<div class="form">
+						<form action="#" class="search">
+							<input type="text" class="search__input" placeholder="Введите адрес доставки">
+							<img src="images/Location.svg" alt="Location" class="search-location">
+							<img src="images/Search.svg" alt="search" class="search-search">
+						</form>
+					</div>
+
+					<div class="contact">
+						<div class="contact-img">
+							<img class="contact-img__img" src="images/Calling.svg" alt="tel">
+						</div>
+						<div class="contact__info">
+							<span class="contact__info-text">Контакты:</span>
+							<a class="contact__info-text contact__info-text--bold" href="tel:+79175105759">+7 (917) 510-57-59</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="buy">
+					<a class="buy-text__text" href="#" target="_blank">Корзина</a>
+					<img class="buy__img" src="images/Line.svg" alt="line">
+					<div class="buy-number">
+						<span class="buy-number__number">4</span>
+					</div>
+				</div>
+			</div>
+
+			<div class="header-mobile-wrap">
+				<div class="header-mobile">
+					<div class="burger-menu">
+						<div class="burger-menu-item"></div>
+						<div class="burger-menu-item"></div>
+						<div class="burger-menu-item"></div>
+						<a class="burger-menu-text" href="#">МЕНЮ</a>
+					</div>
+
+					<a href="index.html" class="logo">
+						<img class="logo__img" src="images/logo.svg" alt="logo">
+					</a>
+
+					<div class="buy-mobile">
+						<img class="buy-mobile__img" src="images/Buy.svg" alt="buy">
+						<a class="buy-mobile__text" href="#" target="_blank">корзина</a>
+					</div>
+				</div>
+
+				<div class="form-mobile">
+					<div class="form">
+						<form action="#" class="search">
+							<input type="text" class="search__input" placeholder="Введите адрес доставки">
+							<img src="images/Location.svg" alt="Location" class="search-location">
+							<img src="images/Search.svg" alt="search" class="search-search">
+						</form>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<div class="navigation">
+			<ul class="sidebar">
+				<li class="sidebar__item"><a href="#" class="sidebar-item__link">Холодные закуски</a>
+				</li>
+				<li class="sidebar__item"><a href="#" class="sidebar-item__link">Горячие закуски</a></li>
+				<li class="sidebar__item"><a href="#" class="sidebar-item__link">Мясные блюда</a></li>
+				<li class="sidebar__item"><a href="#" class="sidebar-item__link">Супы</a></li>
+				<li class="sidebar__item"><a href="#" class="sidebar-item__link">Рыбные блюда</a></li>
+				<li class="sidebar__item"><a href="#" class="sidebar-item__link">Гриль меню</a></li>
+				<li class="sidebar__item"><a href="#" class="sidebar-item__link">Фирменные блюда</a></li>
+				<li class="sidebar__item"><a href="#" class="sidebar-item__link">Напитки</a></li>
+			</ul>
+		</div>
+
+		<section class="card-dich">
+			<div class="card-dich-container">
+				<div class="card-dich__link-wrapper">
+					<a class="card-dich__link-img" href="index.html">
+						<img class="card-dich__image" src="images/Arrow-back.svg" alt="come-back">
+					</a>
+					<a href="index.html" class="card-dich__link">Вернуться назад</a>
+				</div>
+
+				<div class="card-dich__link-wrapper-mobile">
+					<a class="card-dich__link-img-mobile" href="index.html">
+						<img class="card-dich__image-mobile" src="images/Arrow-green-mobile.svg" alt="arrow-mobile">
+					</a>
+				</div>
+
+				<div class="dich">
+					<img class="dich__img" src="images/card-dich.jpg" alt="dich">
+					<div class="dich__description">
+						<h1 class="dich__description-title">Ягненок</h1>
+						<p class="dich__description-text">помидор, сыр фета, масло подсолнечное, капуста пекинская, перец сладкий
+							красный, огурцы, оливки без косточек</p>
+						<span class="dich__description-text dich__description-text-white">Вес: 210 г</span>
+						<div class="basket">
+							<form action="#" class="basket-form">
+								<input class="basket-form__submit" type="button" value="Корзина">
+								<img class="basket-form__border" src="images/Line.svg" alt="line-form">
+								<img class="basket-form__image" src="images/basket.svg" alt="basket">
+							</form>
+							<span class="basket__dich-weight">259 ₽</span>
+						</div>
+						<div class="dich__description-info">
+							<div class="dich__description-info-stroke1">
+								<span class="dich__description-info-text1">Белки</span>
+								<span class="dich__description-info-text1">Жиры</span>
+								<span class="dich__description-info-text1">Углеводы</span>
+								<span class="dich__description-info-text1">Ккал</span>
+								<span class="dich__description-info-text1">Вес</span>
+							</div>
+							<div class="dich__description-info-stroke2">
+								<span class="dich__description-info-text2">17.23</span>
+								<span class="dich__description-info-text2">7.63</span>
+								<span class="dich__description-info-text2">22.35</span>
+								<span class="dich__description-info-text2">234</span>
+								<span class="dich__description-info-text2">210 г</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="recommendations">
+			<h2 class="recommendations-header">С ЭТИМ ТОВАРОМ ПОКУПАЮТ</h2>
+			<div class="cold-snacks">
+				<div class="swiper swiper-recommendations">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<div class="cold-snacks-dish">
+								<a href="card-product.html" target="_blank" class="cold-snacks-dish__link">
+									<img src="images/dich3.jpg" alt="dich" class="cold-snack-dich__img">
+								</a>
+								<div class="cold-snacks-description">
+									<div class="cold-snacks-description__string1">
+										<p class="cold-snack-dich__header">Гусь</p>
+										<span class="cold-snack-dich__text">Вес: 225 г</span>
+									</div>
+									<p class="cold-snack-dich__text">Фаршированный яблоками</p>
+									<div class="cold-snacks-description__string3">
+										<span class="cold-snack-dich__header">17 900 ₽</span>
+										<form class="snacks-form-btn" action="#">
+											<input class="snacks-form-btn__submit" type="button" value="В корзину">
+											<img class="snacks-form-btn__image" src="images/Buy.svg" alt="buy">
+										</form>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="swiper-slide">
+							<div class="cold-snacks-dish">
+								<a href="card-product.html" target="_blank" class="cold-snacks-dish__link">
+									<img src="images/dich4.jpg" alt="dich" class="cold-snack-dich__img">
+								</a>
+								<div class="cold-snacks-description">
+									<div class="cold-snacks-description__string1">
+										<p class="cold-snack-dich__header">Утка</p>
+										<span class="cold-snack-dich__text">Вес: 225 г</span>
+									</div>
+									<p class="cold-snack-dich__text">Фаршированная рисом, курагой и айвой</p>
+									<div class="cold-snacks-description__string3">
+										<span class="cold-snack-dich__header">220 ₽</span>
+										<form class="snacks-form-btn" action="#">
+											<input class="snacks-form-btn__submit" type="button" value="В корзину">
+											<img class="snacks-form-btn__image" src="images/Buy.svg" alt="buy">
+										</form>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="swiper-slide">
+							<div class="cold-snacks-dish">
+								<a href="card-product.html" target="_blank" class="cold-snacks-dish__link">
+									<img src="images/dich1.jpg" alt="dich" class="cold-snack-dich__img">
+								</a>
+								<div class="cold-snacks-description">
+									<div class="cold-snacks-description__string1">
+										<p class="cold-snack-dich__header">Ягненок</p>
+										<span class="cold-snack-dich__text">Вес: 225 г</span>
+									</div>
+									<p class="cold-snack-dich__text">Фаршированный гречневой кашей, курагой, апельсином и зеленым
+										яблоком
+									</p>
+									<div class="cold-snacks-description__string3">
+										<span class="cold-snack-dich__header">520 ₽</span>
+										<form class="snacks-form-btn" action="#">
+											<input class="snacks-form-btn__submit" type="button" value="В корзину">
+											<img class="snacks-form-btn__image" src="images/Buy.svg" alt="buy">
+										</form>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="swiper-slide">
+							<div class="cold-snacks-dish">
+								<a href="card-product.html" target="_blank" class="cold-snacks-dish__link">
+									<img src="images/dich2.jpg" alt="dich" class="cold-snack-dich__img cold-snack-dich__img--sum">
+								</a>
+								<div class="cold-snacks-description">
+									<div class="cold-snacks-description__string1">
+										<p class="cold-snack-dich__header">Индейка</p>
+										<span class="cold-snack-dich__text">Вес: 225 г</span>
+									</div>
+									<p class="cold-snack-dich__text">Фаршированный гречневой кашей, курагой, апельсином и зеленым
+										яблоком
+									</p>
+									<span class="cold-snack-dich__header">1 650 ₽</span>
+									<form class="snacks-form-btn" action="#">
+										<input class="snacks-form-btn__submit" type="button" value="В корзину">
+										<img class="snacks-form-btn__image" src="images/Buy.svg" alt="buy">
+									</form>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-scrollbar"></div>
+			</div>
+		</section>
+
+		<footer class="footer">
+			<section class="contacts">
+				<h2 class="contacts__title">КОНТАКТЫ</h2>
+				<div class="contact-address">
+					<img src="images/contact-location.svg" alt="Location" class="contacts__img-location">
+					<h3 class="contact-address__title">Наш адрес:</h3>
+					<p class="contact-address__text">МО, городской округ Красногорск, село Ильинкое, Экспериментальная улица, 10
+					</p>
+				</div>
+
+				<div class="contact-email">
+					<img src="images/contact-message.svg" alt="message" class="contacts__img-message">
+					<h3 class="contact-address__title">Наша почта:</h3>
+					<p class="contact-address__text">auto.wash@gmail.com</p>
+				</div>
+
+				<div class="booking">
+					<div class="contact-link">
+						<a class="contact-link__link" href="#" target="_blank">ЗАБРОНИРОВАТЬ СТОЛ</a>
+					</div>
+					<div class="contact-route">
+						<a class="contact-route__link" href="#" target="_blank">ПРОЛОЖИТЬ МАРШРУТ</a>
+					</div>
+					<div class="contact-number">
+						<a class="contact-number__number" href="tel:+79175105759">+7 (917) 510-57-59</a>
+						<span class="contact-number__text">Звоните или оставляйте заявку</span>
+					</div>
+				</div>
+
+				<div class="social">
+					<p class="social__title">Мы в соц сетях:</p>
+					<ul class="social-group">
+						<li class="social-group__item">
+							<a href="#" target="_blank" class="social-group__item-link">
+								<img src="images/facebook.svg" alt="facebook" class="social-group__item-img">
+							</a>
+						</li>
+						<li class="social-group__item">
+							<a href="#" target="_blank" class="social-group__item-link">
+								<img src="images/vkontakte-logo.svg" alt="vkontakte" class="social-group__item-img">
+							</a>
+						</li>
+						<li class="social-group__item">
+							<a href="#" target="_blank" class="social-group__item-link">
+								<img src="images/video-play-button.svg" alt="youtube" class="social-group__item-img">
+							</a>
+						</li>
+						<li class="social-group__item">
+							<a href="#" target="_blank" class="social-group__item-link">
+								<img src="images/instagram.svg" alt="instagram" class="social-group__item-img">
+							</a>
+						</li>
+					</ul>
+				</div>
+			</section>
+
+			<section class="map">
+				<div class="map-geo">
+					<iframe class="map-geo__code"
+						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d17927.696777274003!2d-122.046671282528!3d37.40877125272259!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb78d73d3a0e3%3A0xb8b31e3a60eeb2c1!2sGoogle%20MOT1!5e0!3m2!1sru!2sby!4v1658317881018!5m2!1sru!2sby"
+						allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				</div>
+			</section>
+
+			<section class="footer-info">
+				<div class="home-restaurant-info-wrap">
+					<div class="home">
+						<a href="#top" class="home__link">
+							<img class="home__arrow-img" src="images/Arrow-home.svg" alt="arrow-home">
+						</a>
+					</div>
+					<div class="restaurant-info">
+						<a href="index.html" class="logo">
+							<img class="logo__img-footer" src="images/logo.svg" alt="logo">
+						</a>
+						<span class="restaurant-info__text">© ООО СК «АПШЕРОН»<br>Все права защищены. 2010-2020</span>
+						<a href="#" target="_blank" class="restaurant-info__link">Пользовательское соглашение</a>
+						<a href="#" target="_blank" class="restaurant-info__link">Карта сайта</a>
+						<a href="#" target="_blank" class="restaurant-info__link">Политика конфиденциальности</a>
+					</div>
+				</div>
+
+				<div class="info-for-client">
+					<ul class="info-for-client__list">
+						<li class="info-for-client-list__item">
+							<a href="#" target="_blank" class="info-for-client-list__item-link">О ресторане</a>
+						</li>
+						<li class="info-for-client-list__item">
+							<a href="#" target="_blank" class="info-for-client-list__item-link">Условия доставки</a>
+						</li>
+						<li class="info-for-client-list__item">
+							<a href="#" target="_blank" class="info-for-client-list__item-link">Возврат товара</a>
+						</li>
+						<li class="info-for-client-list__item">
+							<a href="#" target="_blank" class="info-for-client-list__item-link">Акции</a>
+						</li>
+					</ul>
+				</div>
+			</section>
+		</footer>
+	</main>
+
+	<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+	<script>
+		const swiper2 = new Swiper('.swiper-recommendations', {
+			scrollbar: {
+				el: 'swiper-scrollbar',
+				draggable: true,
+			},
+
+			grabCursor: true,
+
+			mousewheel: {
+				eventsTarget: '.swiper-recommendations',
+			},
+
+			slidesPerView: 4,
+			watchOverflow: true,
+			spaceBetween: 20,
+
+			breakpoints: {
+				320: {
+					slidesPerView: 1,
+				},
+
+				375: {
+					slidesPerView: 1.15,
+				},
+
+				425: {
+					slidesPerView: 1.3,
+				},
+
+				576: {
+					slidesPerView: 1.8,
+				},
+
+				768: {
+					slidesPerView: 2.3,
+				},
+
+				992: {
+					slidesPerView: 2.9,
+				},
+
+				1024: {
+					slidesPerView: 3.1,
+				},
+
+				1200: {
+					slidesPerView: 3.5,
+				},
+
+				1440: {
+					slidesPerView: 4.1,
+				},
+
+				2500: {
+					slidesPerView: 4.5,
+				},
+			},
+
+			observer: true,
+			observeParents: true,
+			observeSlideChildren: true,
+		});
+	</script>
+</body>
+
+</html>
