@@ -308,3 +308,25 @@
 	margin-bottom: 30px;
 }
 }
+
+@media screen and (max-width: 576px) {
+	.banner__text {
+		left: 4.4%;
+	}
+
+	.banner__text--3d {
+		left: 4%;
+	}
+
+	.banner__text-bg {
+    left: 69px;
+	}
+
+	.banner__text-border {
+    left: 79px;
+	}
+
+	.banner__text--bg-green {
+    left: 89px;
+	}
+}
